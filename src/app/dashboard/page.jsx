@@ -1,4 +1,5 @@
 "use client"
+import CityInfo from '@/components/CityInfo'
 import NavBar from '@/components/NavBar'
 import WeatherCard from '@/components/WeatherCard'
 import React, { useEffect, useState } from 'react'
@@ -16,6 +17,7 @@ console.log(".....")
   return (
     <>
     <NavBar />
+    <CityInfo />
     <div className='flex md:flex-row flex-col p-2'>
         {
             data?.map((item) => { return(

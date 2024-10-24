@@ -48,7 +48,7 @@ export default function CityInfo() {
         data = [resObj]
       }
      
-       
+       console.log(weatherRes,countryRes,placesRes,"...my");
       console.log(resObj,totalData,"....")
       setData(resObj);
       localStorage.setItem("data",JSON.stringify(data))
